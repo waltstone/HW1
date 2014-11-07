@@ -1,0 +1,150 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+header{
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1.head{
+  float: left;
+}
+
+ul.head{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+  font-weight: bold;
+}
+
+li.head{
+  float: left;
+  margin-left: 3em;
+}
+
+div.head{
+  float: right;
+  margin-top: 3em;
+}
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+section.mid{
+  width: 960px;
+  margin: 0 auto;
+  height: 750px;
+  position: relative;
+  font-size: 20px;
+  
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+
+section .phone{
+  position: absolute;
+  top: 150px;
+  left: 160px;
+}
+
+div.phone2{
+  position: absolute;
+  top: 180px;
+  left: 560px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+ul.phone2{
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.price{
+  font-size: 28px;
+}
+p.phone2{
+  float: left;
+  font-weight: bold;
+}
+
+button{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+
+section.last{
+  width: 960px;
+  margin: 1em auto;
+}
+
+h3, ul, .cover{
+  float: left;
+}
+
+h3{
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0;
+  margin-right: 16px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+  list-style-type: none;
+}
+
+p{
+  clear: both;
+  text-align: center;
+}
+
+figure{
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+}
+
+li figure{
+  border-top-width:0;
+}
+
+li:first-child figure{
+  border-top-width: 1px;
+}
